@@ -1,0 +1,50 @@
+.onegrid {
+    width: 80%;
+    margin: 30px auto;
+    margin-bottom: 80px;
+    color: #12131C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.onegrid h1 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.onegrid h4 {
+font-size: 16px;
+line-height: 36px;
+text-align: center;
+font-weight: lighter;
+}
+
+.switch {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    border-radius: 3px;
+    color: #303030;
+    overflow-x: hidden;
+}
+
+.switch button {
+    height: 32px;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    border: 1px solid #BFBFBF;
+    cursor: pointer;
+    }
+
+
+@media only screen and (max-width: 600px) {
+    .onegrid {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}

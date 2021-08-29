@@ -1,0 +1,13 @@
+.btn {
+    font-size: 12px;
+    width: 151px;
+    height: 32px;
+    border-radius: 6px;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bolder !important;
+    cursor: pointer;
+    margin:30px 0px;
+    background-image: linear-gradient(to bottom, #AD76FF, #7027DD);
+}

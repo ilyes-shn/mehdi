@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #12131C;
+    padding-bottom: 60px;
+}
+
+.footer h1 {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer h4 {
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons div {
+    margin-right: 10px;
+}
+
+.date {
+    display: flex;
+    padding-bottom: 50px;
+    color: #12131C;
+}
+
+.date h4 {
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: lighter;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer div {
+        margin-bottom: 20px;
+    }
+
+    .date {
+        flex-direction: column;
+    }
+
+    .icons {
+        margin-top: 15px;
+    }
+}

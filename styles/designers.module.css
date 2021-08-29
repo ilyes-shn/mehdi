@@ -1,0 +1,44 @@
+.designers {
+    margin-bottom: 50px;
+}
+
+.designers h1 {
+    font-size: 24px;
+    width: max-content;
+    border-radius: 16px;
+    line-height: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.designers h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+.first {
+    display: flex;
+}
+
+.first div {
+    padding: 30px;
+}
+
+.second {
+    display: flex;
+}
+
+.second div {
+    padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .first {
+        flex-direction: column;
+    }
+
+    .second {
+        flex-direction: column;
+    }
+}

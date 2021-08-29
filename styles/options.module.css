@@ -1,0 +1,11 @@
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .options {
+        flex-direction: column;
+    }
+}

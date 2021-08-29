@@ -1,0 +1,51 @@
+.modal {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    left: 50%;
+    top: 70px;
+    z-index: 10;
+    border-radius: 4px;
+    border: 1px solid #BFBFBF;
+    overflow: hidden;
+    transform: translateX(-60%);
+}
+
+.modal h1 {
+    font-size: 12px;
+    line-height: 48px;
+}
+
+.modal h4 {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.left {
+    padding: 20px;
+    flex: 1;
+}
+
+.left h1 {
+    cursor: pointer;
+}
+
+.right {
+    background-color: #7027DD;
+    padding: 20px;
+    color: white;
+}
+
+
+.right h4 {
+    line-height: 27px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal {
+        display: none;
+    }
+}
