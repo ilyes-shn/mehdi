@@ -13,7 +13,20 @@ margin: 0px 10px;
 .left {
     display: flex;
     align-items: center;
+}
+
+.left h2 {
     cursor: pointer;
+}
+
+.left h4 {
+    font-size: 9px;
+    color: white;
+    border-radius: 4px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0px 5px;
+    background-color: #12131C;
 }
 
 .middle {
@@ -53,6 +66,7 @@ margin: 0px 10px;
     border: none;
     padding: 7px 10px;
     color: white;
+    cursor: pointer;
 }
 
 .close {
