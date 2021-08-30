@@ -9,6 +9,7 @@ const Navigation = () => {
   const [open, setOpen] = useState(false);
   const [enter, setEnter] = useState(false)
 
+  
   function close() {
     if(enter) {
       setOpen(true)
