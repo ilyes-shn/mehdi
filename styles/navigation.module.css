@@ -13,6 +13,7 @@ margin: 0px 10px;
 .left {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .middle {
@@ -31,6 +32,7 @@ margin: 0px 10px;
     font-size: 14px;
     text-decoration: none;
     color: #12131C;
+    font-weight: lighter;
 }
 
 .middle h4 {

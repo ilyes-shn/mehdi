@@ -7,6 +7,18 @@ import MobileMenu from "./MobileMenu";
 
 const Navigation = () => {
   const [open, setOpen] = useState(false);
+  const [enter, setEnter] = useState(false)
+
+  function close() {
+    if(enter) {
+      setOpen(true)
+    } else { 
+      setTimeout(() => {
+        setOpen(false)
+      }, 2000)
+       }
+  }
+
   return (
     <div className={styles.nav}>
       <div className={styles.left}>
@@ -20,7 +32,7 @@ const Navigation = () => {
         />
       </div>
       <div className={styles.middle}>
-        <div onClick={() => setOpen(!open)}>
+        <div onMouseEnter={() => setOpen(true)} onMouseLeave={close}>
           <h4>Why Konfigg</h4>
           <Image height="15" width="13" src="/images/icon.svg" alt="arrow" />
         </div>
@@ -32,7 +44,7 @@ const Navigation = () => {
         <SignUpBtn />
       </div>
       {open && (
-        <div onMouseLeave={() => setOpen(false)}>
+        <div onMouseEnter={() => {setEnter(true); setOpen(true)}} onMouseLeave={() => {setEnter(false); setOpen(false)}}>
           <Modal />
         </div>
       )}
