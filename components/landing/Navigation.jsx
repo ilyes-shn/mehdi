@@ -25,7 +25,8 @@ const Navigation = () => {
       <div className={styles.left}>
         <Image height="35" width="35" src="/images/4535.svg" alt="Konfigg" />
         <h2>Konfigg</h2>
-       <h4>We're hiring!</h4>
+        <div className={styles.delta}></div>
+       <h4>{`We're hiring!`}</h4>
       </div>
       <div className={styles.middle}>
         <div onMouseEnter={() => setOpen(true)} onMouseLeave={close}>
