@@ -6,7 +6,7 @@ import Modal from "./Modal";
 import MobileMenu from "./MobileMenu";
 
 const Navigation = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   return (
     <div className={styles.nav}>
       <div className={styles.left}>
