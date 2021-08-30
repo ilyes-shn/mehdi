@@ -33,6 +33,7 @@ margin: 0px 10px;
     text-decoration: none;
     color: #12131C;
     font-weight: lighter;
+    cursor: pointer;
 }
 
 .middle h4 {
